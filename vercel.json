@@ -1,5 +1,5 @@
 {
-  "buildCommand": "bun run build:vercel",
+    "buildCommand": "bun run workflow:mobile-spa && bun run build:vercel",
   "headers": [
     {
       "source": "/_spa/(.*)",
